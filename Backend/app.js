@@ -10,7 +10,7 @@ const app = express();
 // const mapsRoutes = require('./routes/maps.routes');
 // const rideRoutes = require('./routes/ride.routes');
 
-// connectToDb();
+connectToDb();
 
 app.use(cors());
 // app.use(express.json());
